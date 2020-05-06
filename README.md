@@ -4,6 +4,8 @@
   - apacheなどと同じwebサーバの一つ。
   - NginxとRackは直接つなげることができないので、Unicornを挟む必要がある。
   - プロセス数が数千あるので、同時に多くの人に見られても大丈夫。
+  - リバースプロキシとして動作する
+  - イベント駆動方式
 
 ### コマンド
 - Install
@@ -16,7 +18,6 @@
   - ターミナルには何も表示されない
 - Version確認
   - nginx -v
-
 - URL
   - http://localhost:8080/
 
@@ -30,3 +31,5 @@
 
 ### 参考
 - https://qiita.com/takahiro1127/items/fcb81753eaf381b4b33c
+- https://qiita.com/morrr/items/929e9cb35914a7f3a652
+- https://qiita.com/kawaaa26/items/812e763266fe364045f9#3-nginxのconfigurationファイルの作成
