@@ -33,3 +33,8 @@
 - https://qiita.com/takahiro1127/items/fcb81753eaf381b4b33c
 - https://qiita.com/morrr/items/929e9cb35914a7f3a652
 - https://qiita.com/kawaaa26/items/812e763266fe364045f9#3-nginxのconfigurationファイルの作成
+
+
+heroku buildpacks　で確認
+heroku buildpacks:set heroku/nodejs
+heroku buildpacks:add --index 2 heroku/ruby
